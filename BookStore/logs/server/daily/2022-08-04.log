@@ -82,3 +82,87 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T0
 info: Connected to the database. {"timestamp":"2022-08-04T09:25:11.355Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T09:30:36.609Z"}
 info: Connected to the database. {"timestamp":"2022-08-04T09:30:36.654Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T09:33:05.167Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T09:33:05.205Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T09:54:30.492Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T10:08:59.927Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T10:08:59.969Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T10:11:01.374Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T10:11:01.396Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T10:31:01.861Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T10:31:01.884Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T10:38:03.463Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T10:38:03.496Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T10:52:49.260Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T10:52:49.308Z"}
+error: 
+    status - 500 
+    message - ReferenceError: User is not defined
+    at _callee2$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/book.service.js:10:24)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getbook (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/book.service.js:10:21)
+    at _callee2$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\controllers\/book.controller.js:21:38)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/books/6215888305253301a4fda5cd 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-04T10:53:09.461Z"}
+error: 
+    status - 500 
+    message - ReferenceError: User is not defined
+    at _callee2$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/book.service.js:10:24)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getbook (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/book.service.js:10:21)
+    at _callee2$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\controllers\/book.controller.js:21:38)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/books/6215178d05253301a4fda5c4 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-04T10:57:44.055Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-04T10:59:32.163Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T10:59:32.210Z"}
+error: 
+    status - 500 
+    message - ReferenceError: User is not defined
+    at _callee2$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/book.service.js:10:24)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getbook (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/book.service.js:10:21)
+    at _callee2$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\controllers\/book.controller.js:21:38)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/books/6215178d05253301a4fda5c4 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-04T10:59:36.587Z"}
