@@ -1,0 +1,135 @@
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee2$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/user.service.js:10:33)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-04T07:25:58.570Z"}
+error: 
+    status - 500 
+    message - Error: user already existed
+    at Error.<anonymous> (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at _callee2$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/user.service.js:17:11)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-04T07:33:56.655Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:198:9)
+    at invokeCallback (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:467:12)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-04T08:00:09.301Z"}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at TypeError.<anonymous> (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new TypeError (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\core-js\modules\es.error.cause.js:43:47)
+    at Function.use (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\routes\/index.js:16:10)
+    at Object.<anonymous> (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\/index.js:32:32)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module._compile (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.newLoader [as .js] (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at Object.<anonymous> (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32) {"date":"Thu Aug 04 2022 15:24:30 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":278460},"process":{"argv":["node","C:\\Users\\soora\\Desktop\\bookstore_backend\\BookStore\\src\\index.js"],"cwd":"C:\\Users\\soora\\Desktop\\bookstore_backend\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19144488,"external":21312590,"heapTotal":75784192,"heapUsed":50137936,"rss":110247936},"pid":5792,"uid":null,"version":"v14.15.4"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at TypeError.<anonymous> (C:\\Users\\soora\\Desktop\\bookstore_backend\\BookStore\\node_modules\\core-js\\internals\\wrap-error-constructor-with-cause.js:37:62)\n    at new TypeError (C:\\Users\\soora\\Desktop\\bookstore_backend\\BookStore\\node_modules\\core-js\\modules\\es.error.cause.js:43:47)\n    at Function.use (C:\\Users\\soora\\Desktop\\bookstore_backend\\BookStore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\soora\\Desktop\\bookstore_backend\\BookStore\\src\\routes\\/index.js:16:10)\n    at Object.<anonymous> (C:\\Users\\soora\\Desktop\\bookstore_backend\\BookStore\\src\\/index.js:32:32)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Module._compile (C:\\Users\\soora\\Desktop\\bookstore_backend\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Object.newLoader [as .js] (C:\\Users\\soora\\Desktop\\bookstore_backend\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n    at Object.<anonymous> (C:\\Users\\soora\\Desktop\\bookstore_backend\\BookStore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)","timestamp":"2022-08-04T09:54:30.376Z","trace":[{"column":62,"file":"C:\\Users\\soora\\Desktop\\bookstore_backend\\BookStore\\node_modules\\core-js\\internals\\wrap-error-constructor-with-cause.js","function":null,"line":37,"method":null,"native":false},{"column":47,"file":"C:\\Users\\soora\\Desktop\\bookstore_backend\\BookStore\\node_modules\\core-js\\modules\\es.error.cause.js","function":"new TypeError","line":43,"method":null,"native":false},{"column":13,"file":"C:\\Users\\soora\\Desktop\\bookstore_backend\\BookStore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\soora\\Desktop\\bookstore_backend\\BookStore\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":32,"file":"C:\\Users\\soora\\Desktop\\bookstore_backend\\BookStore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1063,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\soora\\Desktop\\bookstore_backend\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1092,"method":".js","native":false},{"column":7,"file":"C:\\Users\\soora\\Desktop\\bookstore_backend\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":928,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":769,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":72,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\soora\\Desktop\\bookstore_backend\\BookStore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1063,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1092,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":928,"method":"load","native":false}]}
+error: 
+    status - 500 
+    message - ReferenceError: User is not defined
+    at _callee2$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/book.service.js:10:24)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getbook (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/book.service.js:10:21)
+    at _callee2$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\controllers\/book.controller.js:21:38)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/books/6215888305253301a4fda5cd 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-04T10:53:09.461Z"}
+error: 
+    status - 500 
+    message - ReferenceError: User is not defined
+    at _callee2$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/book.service.js:10:24)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getbook (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/book.service.js:10:21)
+    at _callee2$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\controllers\/book.controller.js:21:38)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/books/6215178d05253301a4fda5c4 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-04T10:57:44.055Z"}
+error: 
+    status - 500 
+    message - ReferenceError: User is not defined
+    at _callee2$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/book.service.js:10:24)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getbook (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/book.service.js:10:21)
+    at _callee2$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\controllers\/book.controller.js:21:38)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/books/6215178d05253301a4fda5c4 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-04T10:59:36.587Z"}
