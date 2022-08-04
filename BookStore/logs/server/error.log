@@ -1,0 +1,48 @@
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee2$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/user.service.js:10:33)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-04T07:25:58.570Z"}
+error: 
+    status - 500 
+    message - Error: user already existed
+    at Error.<anonymous> (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at _callee2$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/user.service.js:17:11)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-04T07:33:56.655Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:198:9)
+    at invokeCallback (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:467:12)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-04T08:00:09.301Z"}
