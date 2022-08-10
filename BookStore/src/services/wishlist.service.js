@@ -1,9 +1,8 @@
 import Book from '../models/book.model';
-import Cart from '../models/cart.model';
 import Wish from '../models/wishlist.model'
 
 
-export const sendtoCart = async (params_book_id, userEmail) => {
+export const sendtoWish = async (params_book_id, userEmail) => {
     const data = await Book.findOne({ _id: params_book_id })
     if (data) {
 
@@ -21,7 +20,7 @@ export const sendtoCart = async (params_book_id, userEmail) => {
         const wishData = await Wish.findOne({ userId: userEmail })
 
         if (wishData) {
-            console.log("cart checked sucessfull")
+            console.log("wish checked sucessfull")
             // console.log(cartData.books)
             let found = false;
             let price = 0;
@@ -55,4 +54,44 @@ export const sendtoCart = async (params_book_id, userEmail) => {
         console.log("Book Is Not Exist")
         throw new Error("Book Is Not Exist")
     }
+}
+
+
+
+//service to del the book from wishlist
+export const bokkremove = async (userEmail, params_book_id) => {
+  const wishData = await Wish.findOne({ userId: userEmail })
+  if (wishData) {
+    console.log("wishData sucessfull")
+    let found = false
+    wishData.books.filter(element => {
+      if (element.productId == params_book_id) {
+        let indexvalue = wishData.books.indexOf(element)
+        wishData.books.splice(indexvalue, 1)
+        found = true
+        console.log("Book deleteded")
+      }
+    });
+    if (found == false) {
+      throw new Error("Book is not exist on cart")
+    }
+ 
+    const update_view_wish = Wish.findOneAndUpdate({ userId: userEmail }, { books: wishData.books }, { new: true })
+    return update_view_wish
+ 
+ 
+  } else {
+    console.log("User wish is not exist")
+  }
+}
+
+
+//service to get the book from wish
+export const getwish = async (userEmail) => {
+  const getBooks = await Wish.findOne({ userId: userEmail })
+  if (getBooks) {
+    return getBooks;
+  } else {
+    throw new Error("User not have any cart")
+  }
 }

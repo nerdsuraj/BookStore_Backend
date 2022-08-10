@@ -89,6 +89,55 @@ export const bokkremove = async (userEmail, params_book_id) => {
   }
 }
 
+// get cart book  from cart 
+
+export const CartBooks = async (userEmail) => {
+  const getBooks = await Cart.findOne({ userId: userEmail })
+  if (getBooks) {
+    return getBooks;
+  } else {
+    throw new Error("User not have any cart")
+  }
+}
+
+
+// For change the isPurchased value to true
+
+export const purchasedT= async(userEmail)=>{
+  const value= Cart.findOneAndUpdate({userId:userEmail},{isPurchased:true},{new:true})
+  if(value){
+    return value
+  }else{
+    throw new Error("User don't have any cart")
+  }
+
+}
+
+// For change the isPurchased value to false
+
+export const purchasedF= async(userEmail)=>{
+  const value= Cart.findOneAndUpdate({userId:userEmail},{isPurchased:false},{new:true})
+  if(value){
+    return value
+  }else{
+    throw new Error("User don't have any cart")
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

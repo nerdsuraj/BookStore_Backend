@@ -10,3 +10,38 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T1
 info: Connected to the database. {"timestamp":"2022-08-09T14:28:34.043Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T14:28:49.690Z"}
 info: Connected to the database. {"timestamp":"2022-08-09T14:28:49.737Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T14:46:23.641Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T14:46:23.688Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T14:47:31.290Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T14:47:31.349Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T14:47:56.292Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T14:47:56.338Z"}
+error: 
+    status - 500 
+    message - TypeError: wishService.sendtoWish is not a function
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\controllers\/wishlist.controller.js:7:38)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at sendtoWish (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\controllers\/wishlist.controller.js:5:24)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/wish/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-09T14:49:59.226Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T14:50:28.269Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T14:50:28.324Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T14:52:24.430Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T14:52:24.473Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-09T14:52:46.367Z"}
+info: Connected to the database. {"timestamp":"2022-08-09T14:52:46.403Z"}

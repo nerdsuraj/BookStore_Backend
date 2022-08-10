@@ -10,5 +10,7 @@ router.post('/:_id', userAuth,  wishController.sendtoWish);
 //route to del the book from cart
 router.put('/:_id',userAuth, wishController.bookremove);
 
+router.get('',userAuth,wishController.getwish)
+
 
 export default router;
