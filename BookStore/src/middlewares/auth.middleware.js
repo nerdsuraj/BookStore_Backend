@@ -19,16 +19,12 @@ export const userAuth = async (req, res, next) => {
       };
     bearerToken = bearerToken.split(' ')[1];
 
-    const { user } = await jwt.verify(bearerToken, 'your-secret-key');
-    //  console.log(user);
-   req.body.UserID = user.email;
+    const  user  = await jwt.verify(bearerToken, process.env.SECRATEKEY);
+    
+    req.body.email = user.email;
     next();
   } catch (error) {
-    res.status(HttpStatus.BAD_REQUEST).json({
-      code: HttpStatus.BAD_REQUEST,
-      data: data,
-      message: `UnAuthorised token`
-  });
+   next(error)
   }
 };
 

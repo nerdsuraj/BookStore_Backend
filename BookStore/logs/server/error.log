@@ -133,3 +133,321 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2022-08-04T10:59:36.587Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-05T07:07:05.254Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-05T07:10:21.196Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'email' of undefined
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-05T08:12:36.988Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/book.service.js:5:42)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getAllbook (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/book.service.js:4:24)
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\controllers\/book.controller.js:7:38)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-05T08:13:19.041Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/cart.service.js:9:44)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/cart/6215888305253301a4fda5cd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-05T10:13:11.948Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/cart.service.js:9:44)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/cart/6215888305253301a4fda5cd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-05T10:13:47.370Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/cart.service.js:9:44)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/cart/6215888305253301a4fda5cd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-05T10:21:34.639Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'email' of undefined
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\middlewares\/auth.middleware.js:24:27)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-08-05T11:14:29.306Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/6215888305253301a4fda5cd 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-08-06T02:13:09.152Z"}
+error: 
+    status - 500 
+    message - ReferenceError: req is not defined
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/cart.service.js:15:19)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/cart/6215888305253301a4fda5cd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-06T02:14:47.923Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'query' of undefined
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/cart.service.js:15:33)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/cart/6215888305253301a4fda5cd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-06T02:15:58.784Z"}
+error: 
+    status - 500 
+    message - TypeError: _book.default.filter is not a function
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/cart.service.js:16:39)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/cart/6215888305253301a4fda5cd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-06T02:43:48.657Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'forEach' of undefined
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/cart.service.js:26:30)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/cart/6215888305253301a4fda5cd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-07T10:59:32.240Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'forEach' of undefined
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/cart.service.js:26:30)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/cart/6215888305253301a4fda5cd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-07T11:10:36.939Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'forEach' of undefined
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/cart.service.js:26:30)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/cart/6215888305253301a4fda5cd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-07T12:22:24.260Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'forEach' of undefined
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/cart.service.js:26:30)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/cart/6215888305253301a4fda5cd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-07T14:51:29.862Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'forEach' of undefined
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/cart.service.js:26:30)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/cart/6215888305253301a4fda5cd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-07T15:20:51.376Z"}
+error: 
+    status - 500 
+    message - TypeError: cartService.sendtoCart is not a function
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\controllers\/cart.controller.js:7:38)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at sendtoCart (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\controllers\/cart.controller.js:5:24)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/cart/6215892405253301a4fda5d2 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-07T15:24:23.311Z"}
+error: 
+    status - 500 
+    message - ReferenceError: element is not defined
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/cart.service.js:50:25)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/cart/6215893e05253301a4fda5d3 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-07T16:05:15.381Z"}
+error: 
+    status - 500 
+    message - TypeError: wishService.sendtoWish is not a function
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\controllers\/wishlist.controller.js:7:38)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at sendtoWish (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\controllers\/wishlist.controller.js:5:24)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/wish/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-09T14:49:59.226Z"}

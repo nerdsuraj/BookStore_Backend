@@ -1,0 +1,63 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-06T02:06:33.987Z"}
+info: Connected to the database. {"timestamp":"2022-08-06T02:06:34.037Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/6215888305253301a4fda5cd 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-08-06T02:13:09.152Z"}
+error: 
+    status - 500 
+    message - ReferenceError: req is not defined
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/cart.service.js:15:19)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/cart/6215888305253301a4fda5cd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-06T02:14:47.923Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-06T02:15:54.887Z"}
+info: Connected to the database. {"timestamp":"2022-08-06T02:15:54.959Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'query' of undefined
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/cart.service.js:15:33)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/cart/6215888305253301a4fda5cd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-06T02:15:58.784Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-06T02:43:43.457Z"}
+info: Connected to the database. {"timestamp":"2022-08-06T02:43:43.483Z"}
+error: 
+    status - 500 
+    message - TypeError: _book.default.filter is not a function
+    at _callee$ (C:\Users\soora\Desktop\bookstore_backend\BookStore\src\services\/cart.service.js:16:39)
+    at tryCatch (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\bookstore_backend\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/cart/6215888305253301a4fda5cd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-08-06T02:43:48.657Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-06T03:14:21.926Z"}
+info: Connected to the database. {"timestamp":"2022-08-06T03:14:21.966Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-06T03:18:04.110Z"}
+info: Connected to the database. {"timestamp":"2022-08-06T03:18:04.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-06T03:18:23.771Z"}
+info: Connected to the database. {"timestamp":"2022-08-06T03:18:23.802Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-06T07:30:15.128Z"}
+info: Connected to the database. {"timestamp":"2022-08-06T07:30:15.174Z"}
