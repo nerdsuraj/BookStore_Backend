@@ -1,6 +1,0 @@
-info: ::1 - - [09/Aug/2022:14:49:59 +0000] "POST /api/v1/wish/6214803b05253301a4fda584 HTTP/1.1" 500 75 "-" "PostmanRuntime/7.29.2"
-
-info: ::1 - - [09/Aug/2022:14:50:37 +0000] "POST /api/v1/wish/6214803b05253301a4fda584 HTTP/1.1" 200 1325 "-" "PostmanRuntime/7.29.2"
-
-info: ::1 - - [09/Aug/2022:14:51:36 +0000] "POST /api/v1/wish/6215178d05253301a4fda5c4 HTTP/1.1" 200 1556 "-" "PostmanRuntime/7.29.2"
-
