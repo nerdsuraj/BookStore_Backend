@@ -119,6 +119,44 @@ export const getUser = async (req, res, next) => {
   }
 };
 
+//for the feedback which user will give
+
+// For add a feedback on book ##############
+
+export const feedback = async (req, res, next) => {
+  try {
+    const data = await UserService.feedback(req.params._id,req.body.feedback,req.body.star,req.body.firstname);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: "feedback has updated!"
+    });
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
+  }
+}
+
+// For get all feedback on book ########################
+
+export const getallfeedback = async (req, res, next) => {
+  try {
+    const data = await UserService.getallfeedback(req.params._id);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: "all feedback fetched sucessfully! "
+    });
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
+  }
+}
+
 
 
 /**

@@ -22,6 +22,24 @@ router.post('/resetpassword/:token', emailAuth,userController.resetPassword);
 router.get('', userController.getAllUsers);
 
 
+//route to the post the feedbak from the customer
+
+// For add Feedback on book ############################
+
+router.post('/feedback/:_id',userAuth,userController.feedback)
+
+// For get all feedback on book ########################
+
+router.get('/allfeedback/:_id',userController.getallfeedback)
+
+
+
+
+
+
+
+
+
 //route to get a single user by their user id
 router.get('/:_id', userAuth, userController.getUser);
 

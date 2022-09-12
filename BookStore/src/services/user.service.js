@@ -1,4 +1,5 @@
 import User from '../models/user.model';
+import Feedback from '../models/Feedback';
 
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
@@ -37,7 +38,7 @@ export const login = async (body) => {
     if(comparePass){
 
       var token = jwt.sign({ id:result._id, email:result.email, firstname:result.firstname,lastname:result.lastname,password:result.password }, process.env.SECRATEKEY);
-      return token
+      return {"token":token,"Name": result.firstname}
     
     }else{
       throw new Error("Password is incorrect")
@@ -48,6 +49,37 @@ export const login = async (body) => {
     throw new Error("Mail Is not exist")
   }
 }
+
+//service for customer feedback 
+// For add feedback on book ########################
+
+export const feedback = async (book_id, comment, Star,name) => {
+  const bookCheck = await Feedback.findOne({ 'productID': book_id })
+  if (bookCheck) {
+    bookCheck.userAdded.unshift({ 'feedback': comment, 'star': Star ,'name':name  })
+    // console.log("Book found and the bookCheck is ", bookCheck)
+    // console.log("Book found and the comment array is", bookCheck.userAdded)
+    const addFeedback = await Feedback.findOneAndUpdate({ 'productID': book_id, }, { 'userAdded': bookCheck.userAdded }, { new: true })
+    return addFeedback
+  } else {
+    const information = { 'productID': book_id, 'userAdded': [{ 'feedback': comment, 'star': Star , 'name':name}] }
+    const data = await Feedback.create(information)
+    // console.log("new feedback added", data)
+    return data
+  }
+
+};
+
+// For get all feedback on book ########################
+
+export const getallfeedback = async (book_id) => {
+  const allFeedback = await Feedback.findOne({ 'productID': book_id })
+  // console.log("allFeedback are : ",allFeedback)
+  return allFeedback
+  
+
+};
+
 
 
 // get service from forget password
